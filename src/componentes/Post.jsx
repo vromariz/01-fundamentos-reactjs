@@ -2,7 +2,7 @@ import styles from './Post.module.css';
 
 export function Post() {
     return (
-        <article class={Styles.Post}>
+        <article class={styles.Post}>
             <header>
                 <div className={styles.author}>
                     <img className={styles.avatar} src='' />
