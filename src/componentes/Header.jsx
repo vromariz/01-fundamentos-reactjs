@@ -7,8 +7,8 @@ console.log(ignitelogo);
 
 export function Header() {
     return(
-        <div className = {styles.header}>
+        <header className = {styles.header}>
             <img src = {ignitelogo} alt= "logotipo do ignite" />
-        </div>
+        </header>
     );
 }

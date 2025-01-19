@@ -3,7 +3,7 @@ import styles from './Post.module.css';
 export function Post() {
     return (
         <article class={Styles.Post}>
-            <div>
+            <header>
                 <div className={styles.author}>
                     <img className={styles.avatar} src='' />
                     <div className={styles.authorInfo}>
@@ -12,7 +12,7 @@ export function Post() {
                     </div>
                 </div>
                 <time title="11 de maio as 8:20" data time="2022-05-11 08:13:38">Publicado ha 1h</time>
-            </div>
+            </header>
 
             <div className={styles.content}>
                 <p>Fala galeraa 👋</p>
