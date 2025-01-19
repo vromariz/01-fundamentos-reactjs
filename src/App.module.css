@@ -1,11 +1,13 @@
 .wrapper{
-    max-width: 25rem;
+    max-width: 70rem;
     /*70rem*/
     margin: 2rem auto;
     padding: 0 1rem;
+    display: grid;
     grid-template-columns: 256px 1fr;
     gap: 2rem;
     align-items: flex-start;
     /*usado para manter a sidebar grudada ao topo 
     se nao ela iria se manter alinhada com o feed*/
+    
 }

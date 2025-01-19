@@ -5,7 +5,7 @@ export function Post() {
         <article class={styles.Post}>
             <header>
                 <div className={styles.author}>
-                    <img className={styles.avatar} src='' />
+                    <img className={styles.avatar} src='https://avatars.githubusercontent.com/u/138325339?s=400&u=56a44e82ae6083603336319e005dafa8e76902c2&v=4' />
                     <div className={styles.authorInfo}>
                         <strong>Vinicius </strong>
                         <span>student</span>
