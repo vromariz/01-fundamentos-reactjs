@@ -11,3 +11,13 @@
     se nao ela iria se manter alinhada com o feed*/
     
 }
+
+@media (max-width: 768px) {
+    html{
+        font-size: 87.5%;
+    }
+/*bom para o projeto*/
+    .wrapper{
+        grid-template-columns: 1fr;
+    }
+}
